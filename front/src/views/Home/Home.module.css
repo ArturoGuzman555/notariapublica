@@ -1,0 +1,44 @@
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea ambos contenedores a la misma altura */
+    padding: 20px;
+}
+
+.biographyContainer, .inicioContainer {
+    color: white;
+    background-color: rgba(74, 73, 73, 0.534);
+    padding: 20px;
+    width: 45%; /* Ajusta el ancho para que ambos contenedores quepan en una fila */
+}
+
+.biographyContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-right: 10px; /* Espacio entre los contenedores */
+}
+
+.face {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+
+.biographyText {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.inicioContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.pInicio {
+    color: white;
+}

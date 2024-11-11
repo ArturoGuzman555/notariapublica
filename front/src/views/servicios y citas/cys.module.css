@@ -1,0 +1,17 @@
+.cys {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-color: rgba(74, 73, 73, 0.534);
+    width: 90%;  /* Ajusta el ancho según sea necesario */
+    padding: 20px;
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+    margin-top: 5px;
+}
+
+.cysText {
+    color: white;
+    font-size: 19px;
+    line-height: 2;
+}
